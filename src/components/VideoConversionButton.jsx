@@ -132,6 +132,7 @@ function VideoConversionButton({
           title={`재생 속도  ${speed}x`}
           onSelect={(e) => setSpeed(Number(e))}
         >
+          <Dropdown.Item eventKey="0.5">0.5x</Dropdown.Item>
           <Dropdown.Item eventKey="1">1x</Dropdown.Item>
           <Dropdown.Item eventKey="1.25">1.25x</Dropdown.Item>
           <Dropdown.Item eventKey="1.5">1.5x</Dropdown.Item>
