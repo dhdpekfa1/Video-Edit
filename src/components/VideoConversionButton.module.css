@@ -1,0 +1,32 @@
+.btn_wrapper {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 13;
+  justify-content: center;
+  flex-flow: nowrap;
+}
+
+.text {
+  color: #383838;
+  font-size: 16;
+  font-weight: 700;
+  margin: 1rem !important;
+}
+
+.btn {
+  width: 360px;
+  max-width: 360px;
+  min-width: 180px;
+  border-radius: 8px;
+  height: fit-content;
+  gap: 4px;
+}
+
+.change_btn {
+  width: 360px;
+  height: 55px;
+  max-width: 360px;
+  min-width: 180px;
+  background-color: #6e6d6d;
+  color: #fff;
+}
